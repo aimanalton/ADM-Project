@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Engineering Zero Downtime: Powering North America's Largest Flour Mill | Aiman Alton</title>
-  <meta name="description" content="Product Management Case Study for Shopify Apprentice Product Manager Application — How Licensed Master Electrician execution, international supply chain negotiation, and Scrum/Agile methodology powered ADM's $250M flagship mega-facility." />
+  <meta name="description"
+    content="Product Management Case Study for Shopify Apprentice Product Manager Application — How Licensed Master Electrician execution, international supply chain negotiation, and Scrum/Agile methodology powered ADM's $250M flagship mega-facility." />
 
   <!-- Google Fonts: Inter (UI & Copy) + Space Grotesk (Brutalist Headings) + JetBrains Mono (Technical Specs) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet">
 
   <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -46,7 +50,7 @@
     /* Subtle technical blueprint grid background */
     .bg-blueprint {
       background-size: 32px 32px;
-      background-image: 
+      background-image:
         linear-gradient(to right, rgba(9, 9, 11, 0.05) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(9, 9, 11, 0.05) 1px, transparent 1px);
     }
@@ -62,7 +66,8 @@
 <body class="bg-white text-shopify-dark font-sans antialiased selection:bg-shopify-green selection:text-white">
 
   <!-- Skip to Content Link for Accessibility -->
-  <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-shopify-dark focus:text-white focus:px-4 focus:py-2 focus:font-mono focus:text-sm">
+  <a href="#main-content"
+    class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-shopify-dark focus:text-white focus:px-4 focus:py-2 focus:font-mono focus:text-sm">
     Skip to main content
   </a>
 
@@ -73,7 +78,8 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <!-- Candidate Identity -->
       <a href="#" class="flex items-center gap-3 group" aria-label="Home">
-        <span class="w-9 h-9 bg-shopify-dark text-white font-mono font-semibold text-sm flex items-center justify-center border border-shopify-dark group-hover:bg-shopify-green transition-colors">
+        <span
+          class="w-9 h-9 bg-shopify-dark text-white font-mono font-semibold text-sm flex items-center justify-center border border-shopify-dark group-hover:bg-shopify-green transition-colors">
           AA
         </span>
         <div class="flex flex-col">
@@ -83,29 +89,37 @@
       </a>
 
       <!-- Desktop Navigation Links -->
-      <nav aria-label="Case study sections" class="hidden md:flex items-center gap-8 font-mono text-xs uppercase tracking-wider">
+      <nav aria-label="Case study sections"
+        class="hidden md:flex items-center gap-8 font-mono text-xs uppercase tracking-wider">
         <a href="#problem" class="text-zinc-700 hover:text-shopify-green transition-colors py-1">01. Problem</a>
         <a href="#build" class="text-zinc-700 hover:text-shopify-green transition-colors py-1">02. The Build</a>
-        <a href="#video-showcase" class="text-zinc-700 hover:text-shopify-green transition-colors py-1">03. Field Reel</a>
+        <a href="#video-showcase" class="text-zinc-700 hover:text-shopify-green transition-colors py-1">03. Field
+          Reel</a>
         <a href="#results" class="text-zinc-700 hover:text-shopify-green transition-colors py-1">04. Results</a>
         <a href="#gallery" class="text-zinc-700 hover:text-shopify-green transition-colors py-1">05. Gallery</a>
       </nav>
 
       <!-- Action CTA + Mobile Menu Trigger -->
       <div class="flex items-center gap-3">
-        <a href="mailto:aimanalton@gmail.com" class="hidden sm:inline-flex items-center gap-2 bg-shopify-green text-white font-mono text-xs uppercase tracking-wider font-medium px-4 py-2.5 border-2 border-shopify-dark shadow-brutal-sm hover:bg-shopify-greenHover hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all">
+        <a href="mailto:aimanalton@gmail.com"
+          class="hidden sm:inline-flex items-center gap-2 bg-shopify-green text-white font-mono text-xs uppercase tracking-wider font-medium px-4 py-2.5 border-2 border-shopify-dark shadow-brutal-sm hover:bg-shopify-greenHover hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all">
           <span>Email Me</span>
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+            aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
           </svg>
         </a>
 
         <!-- Mobile Menu Button -->
-        <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu" class="md:hidden p-2 border-2 border-shopify-dark text-shopify-dark hover:bg-shopify-surface transition-colors">
-          <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu"
+          aria-label="Toggle navigation menu"
+          class="md:hidden p-2 border-2 border-shopify-dark text-shopify-dark hover:bg-shopify-surface transition-colors">
+          <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
-          <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
@@ -113,13 +127,20 @@
     </div>
 
     <!-- Mobile Navigation Drawer -->
-    <div id="mobile-menu" class="hidden md:hidden border-t-2 border-shopify-dark bg-white px-4 pt-3 pb-5 space-y-3 font-mono text-xs uppercase tracking-wider">
-      <a href="#problem" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">01. The Problem &amp; Constraints</a>
-      <a href="#build" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">02. The Build &amp; Iteration</a>
-      <a href="#video-showcase" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">03. Field Execution Video</a>
-      <a href="#results" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">04. The Results / Wins</a>
-      <a href="#gallery" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">05. Media Gallery</a>
-      <a href="mailto:aiman.alton@example.com" class="mobile-nav-link inline-block w-full text-center bg-shopify-green text-white py-2.5 border-2 border-shopify-dark shadow-brutal-sm mt-2">
+    <div id="mobile-menu"
+      class="hidden md:hidden border-t-2 border-shopify-dark bg-white px-4 pt-3 pb-5 space-y-3 font-mono text-xs uppercase tracking-wider">
+      <a href="#problem" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">01. The
+        Problem &amp; Constraints</a>
+      <a href="#build" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">02. The
+        Build &amp; Iteration</a>
+      <a href="#video-showcase" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">03.
+        Field Execution Video</a>
+      <a href="#results" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">04. The
+        Results / Wins</a>
+      <a href="#gallery" class="mobile-nav-link block py-2 border-b border-zinc-200 hover:text-shopify-green">05. Media
+        Gallery</a>
+      <a href="mailto:aimanalton@gmail.com"
+        class="mobile-nav-link inline-block w-full text-center bg-shopify-green text-white py-2.5 border-2 border-shopify-dark shadow-brutal-sm mt-2">
         Email Me
       </a>
     </div>
@@ -135,7 +156,8 @@
 
         <!-- Top Metadata Tags -->
         <div class="flex flex-wrap items-center gap-2 mb-6">
-          <span class="inline-flex items-center gap-1.5 bg-shopify-dark text-white font-mono text-xs uppercase px-3 py-1">
+          <span
+            class="inline-flex items-center gap-1.5 bg-shopify-dark text-white font-mono text-xs uppercase px-3 py-1">
             <span class="w-2 h-2 rounded-full bg-shopify-lime animate-pulse"></span>
             Shopify APM Application Case Study
           </span>
@@ -152,22 +174,27 @@
           <p class="font-mono text-xs sm:text-sm uppercase tracking-widest text-shopify-green font-semibold mb-3">
             From Hardware to Software: Shipping the ADM Flour Mill
           </p>
-          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-shopify-dark leading-[1.08] mb-6">
+          <h1
+            class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-shopify-dark leading-[1.08] mb-6">
             Engineering Zero Downtime: Powering North America's Largest Flour Mill
           </h1>
           <p class="text-lg sm:text-xl text-zinc-700 leading-relaxed mb-8">
-            How Licensed Master Electrician execution, international supply chain negotiation, and Scrum/Agile methodology powered ADM's $250M flagship mega-facility.
+            How Licensed Master Electrician execution, international supply chain negotiation, and Scrum/Agile
+            methodology powered ADM's $250M flagship mega-facility.
           </p>
 
           <!-- Primary Hero CTAs -->
           <div class="flex flex-wrap items-center gap-4 mb-12">
-            <a href="#problem" class="inline-flex items-center gap-2 bg-shopify-green text-white font-mono text-sm uppercase tracking-wider font-semibold px-6 py-3.5 border-2 border-shopify-dark shadow-brutal hover:bg-shopify-greenHover hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-brutal-sm transition-all">
+            <a href="#problem"
+              class="inline-flex items-center gap-2 bg-shopify-green text-white font-mono text-sm uppercase tracking-wider font-semibold px-6 py-3.5 border-2 border-shopify-dark shadow-brutal hover:bg-shopify-greenHover hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-brutal-sm transition-all">
               <span>Read the Case Study</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
             </a>
-            <a href="#gallery" class="inline-flex items-center gap-2 bg-white text-shopify-dark font-mono text-sm uppercase tracking-wider font-semibold px-6 py-3.5 border-2 border-shopify-dark shadow-brutal hover:bg-shopify-surface hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-brutal-sm transition-all">
+            <a href="#gallery"
+              class="inline-flex items-center gap-2 bg-white text-shopify-dark font-mono text-sm uppercase tracking-wider font-semibold px-6 py-3.5 border-2 border-shopify-dark shadow-brutal hover:bg-shopify-surface hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-brutal-sm transition-all">
               <span>View Schematics &amp; Photos</span>
             </a>
           </div>
@@ -177,29 +204,74 @@
         <div class="grid grid-cols-2 lg:grid-cols-4 border-2 border-shopify-dark bg-white shadow-brutal mb-12">
           <div class="p-4 sm:p-5 border-b-2 lg:border-b-0 border-r-2 border-shopify-dark">
             <span class="block font-mono text-[11px] uppercase tracking-wider text-zinc-500">My Role</span>
-            <span class="font-display font-bold text-sm sm:text-base mt-1 block">Electrical Project Engineer &amp; Scrum Master</span>
+            <span class="font-display font-bold text-sm sm:text-base mt-1 block">Electrical Project Engineer &amp; Scrum
+              Master</span>
           </div>
           <div class="p-4 sm:p-5 border-b-2 lg:border-b-0 lg:border-r-2 border-shopify-dark">
-            <span class="block font-mono text-[11px] uppercase tracking-wider text-zinc-500">Cross-Functional Team</span>
-            <span class="font-display font-bold text-sm sm:text-base mt-1 block">Multi-trade field crews, panel shop fabricators, and international vendor engineers.</span>
+            <span class="block font-mono text-[11px] uppercase tracking-wider text-zinc-500">Cross-Functional
+              Team</span>
+            <span class="font-display font-bold text-sm sm:text-base mt-1 block">Multi-trade field crews, panel shop
+              fabricators, and international vendor engineers.</span>
           </div>
           <div class="p-4 sm:p-5 border-r-2 border-shopify-dark">
             <span class="block font-mono text-[11px] uppercase tracking-wider text-zinc-500">Delivery Cadence</span>
-            <span class="font-display font-bold text-sm sm:text-base mt-1 block">2-week execution sprints aligned to critical-path physical milestones.</span>
+            <span class="font-display font-bold text-sm sm:text-base mt-1 block">2-week execution sprints aligned to
+              critical-path physical milestones.</span>
           </div>
           <div class="p-4 sm:p-5">
-            <span class="block font-mono text-[11px] uppercase tracking-wider text-zinc-500">Regulatory / Standards</span>
-            <span class="font-display font-bold text-sm sm:text-base mt-1 block">UL508A / NEC / NFPA 70E / Class II Div 1</span>
+            <span class="block font-mono text-[11px] uppercase tracking-wider text-zinc-500">Regulatory /
+              Standards</span>
+            <span class="font-display font-bold text-sm sm:text-base mt-1 block">UL508A / NEC / NFPA 70E / Class II Div
+              1</span>
           </div>
         </div>
 
-        <!-- Primary Hero Image -->
-        <figure class="border-2 border-shopify-dark bg-zinc-100 shadow-brutal overflow-hidden">
-          <div class="relative aspect-[16/9] sm:aspect-[21/9] w-full bg-zinc-900 overflow-hidden">
-            <img src="IMG_7642.jpg" alt="3D CAD Architectural Elevation" class="w-full h-full object-cover" />
+        <!-- Primary Hero Image Showcase: 3D CAD Spec vs. Shipped Physical Facility -->
+        <figure class="border-2 border-shopify-dark bg-white shadow-brutal overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12">
+            <!-- Left: 3D CAD Architectural Elevation (Uncropped Natural Aspect Ratio) -->
+            <button type="button"
+              class="gallery-trigger lg:col-span-7 relative bg-[#F3F6FA] border-b-2 lg:border-b-0 lg:border-r-2 border-shopify-dark flex items-center justify-center p-4 sm:p-6 group focus:outline-none text-left"
+              data-img="IMG_7642.jpg" data-alt="3D CAD Architectural Elevation"
+              data-title="FIG 1.0 // 3D CAD Architectural Elevation"
+              data-caption="Architectural Mapping & Spatial Constraints: Translating mechanical and pneumatic requirements into 3D structural models to ensure clearance, maintenance accessibility, and hazard monitoring routing before field construction began.">
+              <img src="IMG_7642.jpg" alt="3D CAD Architectural Elevation"
+                class="w-full max-h-[460px] object-contain group-hover:scale-[1.02] transition-transform duration-300" />
+              <div
+                class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+                FIG 1.0 // 3D REVIT &amp; CAD SPEC
+              </div>
+              <div
+                class="absolute top-3 right-3 font-mono text-[11px] bg-shopify-dark text-white px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                + EXPAND
+              </div>
+            </button>
+
+            <!-- Right: Shipped Physical Catwalk & Silo Headhouse (IMG_8191.jpg) -->
+            <button type="button"
+              class="gallery-trigger lg:col-span-5 relative bg-zinc-900 overflow-hidden group focus:outline-none text-left"
+              data-img="IMG_8191.jpg" data-alt="Aiman Alton on the completed high-altitude conveyor catwalk at ADM Mendota"
+              data-title="FIG 1.1 // Shipped Physical Facility (Mendota, IL)"
+              data-caption="From 3D Model to Commissioned Mega-Facility: Walking the elevated conveyor catwalk atop ADM's Mendota flour mill with the concrete headhouse and 110-car rail loop below.">
+              <img src="IMG_8191.jpg"
+                alt="Aiman Alton on the completed high-altitude conveyor catwalk at ADM Mendota"
+                class="w-full h-full max-h-[500px] object-cover object-center group-hover:scale-105 transition-transform duration-300" />
+              <div
+                class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+                FIG 1.1 // SHIPPED REALITY
+              </div>
+              <div
+                class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                + EXPAND
+              </div>
+            </button>
           </div>
-          <figcaption class="bg-white border-t-2 border-shopify-dark px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 font-mono text-xs text-zinc-600">
-            <span>Architectural Mapping &amp; Spatial Constraints: Translating mechanical and pneumatic requirements into 3D structural models to ensure clearance, maintenance accessibility, and hazard monitoring routing before field construction began.</span>
+
+          <figcaption
+            class="bg-white border-t-2 border-shopify-dark px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 font-mono text-xs text-zinc-600">
+            <span>Architectural Mapping &amp; Spatial Constraints: Translating mechanical and pneumatic requirements
+              into 3D structural models to ensure clearance, maintenance accessibility, and hazard monitoring routing
+              before field construction began.</span>
             <span class="text-shopify-green font-semibold shrink-0">STATUS: SHIPPED TO PRODUCTION</span>
           </figcaption>
         </figure>
@@ -215,14 +287,16 @@
 
         <!-- Section Header -->
         <div class="mb-12">
-          <div class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-mint text-shopify-greenHover border border-shopify-dark px-3 py-1 mb-3">
+          <div
+            class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-mint text-shopify-greenHover border border-shopify-dark px-3 py-1 mb-3">
             01 // Discovery &amp; Problem Definition
           </div>
           <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-shopify-dark">
             The Problem &amp; The Constraints
           </h2>
           <p class="text-zinc-600 mt-2 max-w-2xl">
-            In industrial automation—just like high-volume e-commerce—every minute of unplanned downtime translates directly to lost throughput and safety risk.
+            In industrial automation—just like high-volume e-commerce—every minute of unplanned downtime translates
+            directly to lost throughput and safety risk.
           </p>
         </div>
 
@@ -241,7 +315,11 @@
 
               <div class="space-y-5 text-zinc-800 leading-relaxed">
                 <p>
-                  ADM initiated a massive strategic realignment by closing three legacy Midwest mills (including its historic Chicago facility) to centralize operations into a single, ground-up mega-plant in Mendota, IL. As the electrical project lead at the forefront of powering this facility, the challenge was high-stakes architecture design: constructing a fault-tolerant electrical backbone capable of supporting 3 million pounds of daily flour output without a single point of failure.
+                  ADM initiated a massive strategic realignment by closing three legacy Midwest mills (including its
+                  historic Chicago facility) to centralize operations into a single, ground-up mega-plant in Mendota,
+                  IL. As the electrical project lead at the forefront of powering this facility, the challenge was
+                  high-stakes architecture design: constructing a fault-tolerant electrical backbone capable of
+                  supporting 3 million pounds of daily flour output without a single point of failure.
                 </p>
 
                 <div class="border-l-4 border-shopify-dark pl-4 py-1 space-y-2">
@@ -249,7 +327,9 @@
                     Cost of Downtime &amp; Operational Risk
                   </h4>
                   <p class="text-sm sm:text-base">
-                    Consolidating three regional plants into one created an extreme reliability requirement. An unplanned electrical outage at Mendota would halt 60 semi-truckloads of daily distribution, creating immediate downstream supply chain failures for commercial bakeries nationwide.
+                    Consolidating three regional plants into one created an extreme reliability requirement. An
+                    unplanned electrical outage at Mendota would halt 60 semi-truckloads of daily distribution, creating
+                    immediate downstream supply chain failures for commercial bakeries nationwide.
                   </p>
                 </div>
 
@@ -258,7 +338,9 @@
                     End-User Personas (Plant Operators &amp; Maintenance Techs)
                   </h4>
                   <p class="text-sm sm:text-base">
-                    Plant operators and maintenance technicians required modular, highly visible fault diagnostics and standardized control interfaces to safely troubleshoot 480/277/120 VAC and 24VDC systems without taking entire production lines offline.
+                    Plant operators and maintenance technicians required modular, highly visible fault diagnostics and
+                    standardized control interfaces to safely troubleshoot 480/277/120 VAC and 24VDC systems without
+                    taking entire production lines offline.
                   </p>
                 </div>
               </div>
@@ -267,53 +349,70 @@
             <!-- Software PM Parallel Callout -->
             <div class="mt-8 pt-4 border-t border-zinc-200 flex items-start gap-3 text-xs font-mono text-zinc-600">
               <span class="text-shopify-green font-bold shrink-0">PM LENS //</span>
-              <span>Just like checkout downtime during Black Friday, a single point of failure in a centralized grain mill halts the entire revenue and distribution pipeline.</span>
+              <span>Just like checkout downtime during Black Friday, a single point of failure in a centralized grain
+                mill halts the entire revenue and distribution pipeline.</span>
             </div>
           </article>
 
           <!-- RIGHT COLUMN: Metrics, UL508A/NEC Constraints & Evidence -->
-          <article class="border-2 border-shopify-dark bg-shopify-surface p-6 sm:p-8 shadow-brutal flex flex-col justify-between">
+          <article
+            class="border-2 border-shopify-dark bg-shopify-surface p-6 sm:p-8 shadow-brutal flex flex-col justify-between">
             <div>
               <div class="flex items-center justify-between border-b-2 border-shopify-dark pb-4 mb-6">
                 <h3 class="font-display text-xl sm:text-2xl font-bold">
                   Hard Constraints &amp; Validation Evidence
                 </h3>
-                <span class="font-mono text-xs uppercase px-2.5 py-1 bg-shopify-green text-white">Specs &amp; Proof</span>
+                <span class="font-mono text-xs uppercase px-2.5 py-1 bg-shopify-green text-white">Specs &amp;
+                  Proof</span>
               </div>
 
               <p class="text-zinc-800 leading-relaxed mb-6">
-                Delivering a fault-tolerant 480/277/120 VAC and 24VDC power and automation architecture for North America's largest flour mill meant operating within non-negotiable regulatory, spatial, and throughput boundaries.
+                Delivering a fault-tolerant 480/277/120 VAC and 24VDC power and automation architecture for North
+                America's largest flour mill meant operating within non-negotiable regulatory, spatial, and throughput
+                boundaries.
               </p>
 
               <!-- Structured Constraint Cards -->
               <div class="space-y-4">
                 <div class="bg-white border-2 border-shopify-dark p-4">
                   <div class="flex items-center justify-between mb-1">
-                    <span class="font-mono text-xs font-bold uppercase text-shopify-green">Constraint 01 // Regulatory &amp; Safety</span>
-                    <span class="font-mono text-[11px] bg-zinc-100 px-2 py-0.5 border border-zinc-300">UL508A / NEC</span>
+                    <span class="font-mono text-xs font-bold uppercase text-shopify-green">Constraint 01 // Regulatory
+                      &amp; Safety</span>
+                    <span class="font-mono text-[11px] bg-zinc-100 px-2 py-0.5 border border-zinc-300">UL508A /
+                      NEC</span>
                   </div>
                   <p class="text-sm text-zinc-700 mt-1">
-                    Strict adherence to NEC industrial electrical installation focusing on class II Div 1-2 hazardous location codes and UL508A industrial electrical panel building shaped the footprint, ensuring safe operation amidst combustible grain dust.
+                    Strict adherence to NEC industrial electrical installation focusing on class II Div 1-2 hazardous
+                    location codes and UL508A industrial electrical panel building shaped the footprint, ensuring safe
+                    operation amidst combustible grain dust.
                   </p>
                 </div>
 
                 <div class="bg-white border-2 border-shopify-dark p-4">
                   <div class="flex items-center justify-between mb-1">
-                    <span class="font-mono text-xs font-bold uppercase text-shopify-green">Constraint 02 // Hardware &amp; Lead Times</span>
-                    <span class="font-mono text-[11px] bg-zinc-100 px-2 py-0.5 border border-zinc-300">Supply Chain / Footprint</span>
+                    <span class="font-mono text-xs font-bold uppercase text-shopify-green">Constraint 02 // Hardware
+                      &amp; Lead Times</span>
+                    <span class="font-mono text-[11px] bg-zinc-100 px-2 py-0.5 border border-zinc-300">Supply Chain /
+                      Footprint</span>
                   </div>
                   <p class="text-sm text-zinc-700 mt-1">
-                    Physical space limits in the electrical rooms and the power step-down equipment permanently suited to be installed outside dictated aggressive footprint optimization for the massive 3000A switchboards and VFD heat dissipation.
+                    Physical space limits in the electrical rooms and the power step-down equipment permanently suited
+                    to be installed outside dictated aggressive footprint optimization for the massive 3000A
+                    switchboards and VFD heat dissipation.
                   </p>
                 </div>
 
                 <div class="bg-white border-2 border-shopify-dark p-4">
                   <div class="flex items-center justify-between mb-1">
-                    <span class="font-mono text-xs font-bold uppercase text-shopify-green">Constraint 03 // Evidence That It Mattered</span>
-                    <span class="font-mono text-[11px] bg-zinc-100 px-2 py-0.5 border border-zinc-300">Baseline Metrics</span>
+                    <span class="font-mono text-xs font-bold uppercase text-shopify-green">Constraint 03 // Evidence
+                      That It Mattered</span>
+                    <span class="font-mono text-[11px] bg-zinc-100 px-2 py-0.5 border border-zinc-300">Baseline
+                      Metrics</span>
                   </div>
                   <p class="text-sm text-zinc-700 mt-1">
-                    The business model demanded 100% power efficacy and continuous 24/7/365 production across three milling units, a 110-car rail loop, inbound and outbound truck systems, and high-speed automated packaging systems.
+                    The business model demanded 100% power efficacy and continuous 24/7/365 production across three
+                    milling units, a 110-car rail loop, inbound and outbound truck systems, and high-speed automated
+                    packaging systems.
                   </p>
                 </div>
               </div>
@@ -321,7 +420,8 @@
 
             <div class="mt-8 pt-4 border-t border-zinc-300 flex items-start gap-3 text-xs font-mono text-zinc-600">
               <span class="text-shopify-green font-bold shrink-0">COMPLIANCE //</span>
-              <span>Zero tolerance for "move fast and break things" when 480VAC and combustible grain dust are involved—rigorous upfront discovery prevented costly field re-work.</span>
+              <span>Zero tolerance for "move fast and break things" when 480VAC and combustible grain dust are
+                involved—rigorous upfront discovery prevented costly field re-work.</span>
             </div>
           </article>
 
@@ -338,20 +438,25 @@
         <!-- Section Header -->
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
           <div>
-            <div class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-dark text-white px-3 py-1 mb-3">
+            <div
+              class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-dark text-white px-3 py-1 mb-3">
               02 // Execution &amp; Iteration
             </div>
             <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-shopify-dark">
               The Build &amp; Iteration (The Story)
             </h2>
             <p class="text-zinc-600 mt-2 max-w-2xl">
-              How we took the ADM Flour Mill from system requirements to live commissioning across three distinct product phases.
+              How we took the ADM Flour Mill from system requirements to live commissioning across three distinct
+              product phases.
             </p>
           </div>
 
           <!-- Interactive View Switcher (Hardware Terms vs Software PM Lens) -->
-          <div class="bg-white border-2 border-shopify-dark p-1.5 inline-flex items-center gap-1 self-start shadow-brutal-sm" role="group" aria-label="Toggle PM translation annotations">
-            <button type="button" id="toggle-pm-lens" aria-pressed="true" class="font-mono text-xs uppercase px-3 py-1.5 bg-shopify-green text-white font-medium transition-colors">
+          <div
+            class="bg-white border-2 border-shopify-dark p-1.5 inline-flex items-center gap-1 self-start shadow-brutal-sm"
+            role="group" aria-label="Toggle PM translation annotations">
+            <button type="button" id="toggle-pm-lens" aria-pressed="true"
+              class="font-mono text-xs uppercase px-3 py-1.5 bg-shopify-green text-white font-medium transition-colors">
               Show PM Parallels: ON
             </button>
           </div>
@@ -363,14 +468,16 @@
           <!-- PHASE 1: Scoping the Architecture -->
           <div class="relative group">
             <!-- Timeline Node Badge -->
-            <div class="absolute -left-[38px] sm:-left-[54px] top-0 w-8 h-8 sm:w-10 sm:h-10 bg-shopify-dark text-white font-mono font-bold text-xs sm:text-sm flex items-center justify-center border-2 border-shopify-dark group-hover:bg-shopify-green transition-colors">
+            <div
+              class="absolute -left-[38px] sm:-left-[54px] top-0 w-8 h-8 sm:w-10 sm:h-10 bg-shopify-dark text-white font-mono font-bold text-xs sm:text-sm flex items-center justify-center border-2 border-shopify-dark group-hover:bg-shopify-green transition-colors">
               01
             </div>
 
             <div class="border-2 border-shopify-dark bg-white p-6 sm:p-8 shadow-brutal">
               <div class="flex flex-wrap items-center justify-between gap-2 border-b-2 border-shopify-dark pb-4 mb-6">
                 <div>
-                  <span class="font-mono text-xs uppercase text-shopify-green font-semibold">Phase 01 // System Design &amp; PRD</span>
+                  <span class="font-mono text-xs uppercase text-shopify-green font-semibold">Phase 01 // System Design
+                    &amp; PRD</span>
                   <h3 class="font-display text-2xl font-bold mt-0.5">Scoping the Architecture</h3>
                 </div>
                 <span class="font-mono text-xs bg-shopify-surface border border-shopify-dark px-3 py-1">
@@ -379,27 +486,39 @@
               </div>
 
               <p class="text-base sm:text-lg text-zinc-800 leading-relaxed mb-6">
-                To balance ADM’s requirement for 24/7 uptime against tight capital budgets, I translated broad plant capacity goals into standardized, cost-effective Motor Control Center (MCC) and switchboard designs. Rather than relying on legacy single-source suppliers, I expanded our procurement network globally—identifying international gear manufacturers capable of meeting strict standards.
+                To balance ADM’s requirement for 24/7 uptime against tight capital budgets, I translated broad plant
+                capacity goals into standardized, cost-effective Motor Control Center (MCC) and switchboard designs.
+                Rather than relying on legacy single-source suppliers, I expanded our procurement network
+                globally—identifying international gear manufacturers capable of meeting strict standards.
               </p>
 
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="bg-shopify-surface border border-zinc-300 p-4">
-                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Key Architectural Trade-Off</h4>
+                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Key Architectural Trade-Off
+                  </h4>
                   <p class="text-sm text-zinc-700">
-                    I prioritized full physical redundancy strictly on critical core nodes while standardizing modular panel components across auxiliary drives, maintaining zero compromise on quality while optimizing maintenance overhead.
+                    I prioritized full physical redundancy strictly on critical core nodes while standardizing modular
+                    panel components across auxiliary drives, maintaining zero compromise on quality while optimizing
+                    maintenance overhead.
                   </p>
                 </div>
                 <div class="bg-shopify-surface border border-zinc-300 p-4">
-                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Definition of Done (Acceptance Criteria)</h4>
+                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Definition of Done
+                    (Acceptance Criteria)</h4>
                   <p class="text-sm text-zinc-700">
-                    Definition of Done required comprehensive Revit MEP models of all electrical equipment in place, inspection of all mill equipment, ECAD schematic sign-offs, and rigorous point-to-point continuity checks before any panel left the shop floor.
+                    Definition of Done required comprehensive Revit MEP models of all electrical equipment in place,
+                    inspection of all mill equipment, ECAD schematic sign-offs, and rigorous point-to-point continuity
+                    checks before any panel left the shop floor.
                   </p>
                 </div>
               </div>
 
               <!-- Toggleable Software PM Parallel -->
-              <div class="pm-lens-box mt-6 bg-shopify-mint/60 border-l-4 border-shopify-green p-3.5 font-mono text-xs text-shopify-dark">
-                <strong>SOFTWARE PM EQUIVALENT:</strong> Designing a scalable microservices architecture, defining API contracts between services (PLC ↔ VFDs ↔ SCADA), and writing a rigorous technical PRD before engineers write a single line of code.
+              <div
+                class="pm-lens-box mt-6 bg-shopify-mint/60 border-l-4 border-shopify-green p-3.5 font-mono text-xs text-shopify-dark">
+                <strong>SOFTWARE PM EQUIVALENT:</strong> Designing a scalable microservices architecture, defining API
+                contracts between services (PLC ↔ VFDs ↔ SCADA), and writing a rigorous technical PRD before engineers
+                write a single line of code.
               </div>
             </div>
           </div>
@@ -407,14 +526,16 @@
           <!-- PHASE 2: Cross-functional Alignment -->
           <div class="relative group">
             <!-- Timeline Node Badge -->
-            <div class="absolute -left-[38px] sm:-left-[54px] top-0 w-8 h-8 sm:w-10 sm:h-10 bg-shopify-dark text-white font-mono font-bold text-xs sm:text-sm flex items-center justify-center border-2 border-shopify-dark group-hover:bg-shopify-green transition-colors">
+            <div
+              class="absolute -left-[38px] sm:-left-[54px] top-0 w-8 h-8 sm:w-10 sm:h-10 bg-shopify-dark text-white font-mono font-bold text-xs sm:text-sm flex items-center justify-center border-2 border-shopify-dark group-hover:bg-shopify-green transition-colors">
               02
             </div>
 
             <div class="border-2 border-shopify-dark bg-white p-6 sm:p-8 shadow-brutal">
               <div class="flex flex-wrap items-center justify-between gap-2 border-b-2 border-shopify-dark pb-4 mb-6">
                 <div>
-                  <span class="font-mono text-xs uppercase text-shopify-green font-semibold">Phase 02 // Agile Delivery &amp; Execution</span>
+                  <span class="font-mono text-xs uppercase text-shopify-green font-semibold">Phase 02 // Agile Delivery
+                    &amp; Execution</span>
                   <h3 class="font-display text-2xl font-bold mt-0.5">Cross-Functional Alignment</h3>
                 </div>
                 <span class="font-mono text-xs bg-shopify-surface border border-shopify-dark px-3 py-1">
@@ -422,28 +543,69 @@
                 </span>
               </div>
 
-              <p class="text-base sm:text-lg text-zinc-800 leading-relaxed mb-6">
-                Coordinating civil, structural, mechanical, pneumatic, and electrical workstreams required adapting core Scrum rituals to the physical job site. I instituted 15-minute daily cross-disciplinary standups and organized complex build phases into 2-week execution sprints focused on physical critical-path milestones.
-              </p>
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+                <div class="lg:col-span-7 flex flex-col justify-between space-y-4">
+                  <p class="text-base sm:text-lg text-zinc-800 leading-relaxed">
+                    Coordinating civil, structural, mechanical, pneumatic, and electrical workstreams required adapting
+                    core Scrum rituals to the physical job site. I instituted 15-minute daily cross-disciplinary
+                    standups and organized complex build phases into 2-week execution sprints focused on physical
+                    critical-path milestones.
+                  </p>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="bg-shopify-surface border border-zinc-300 p-4">
-                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Bridging Shop &amp; Field Silos</h4>
-                  <p class="text-sm text-zinc-700">
-                    Just as a software PM maps back-end API dependencies to front-end feature launches, I mapped physical trade interdependencies where concrete pours directly impacted conduit runs and pneumatic testing.
-                  </p>
+                  <div class="space-y-4">
+                    <div class="bg-shopify-surface border border-zinc-300 p-4">
+                      <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Bridging Shop &amp; Field
+                        Silos</h4>
+                      <p class="text-sm text-zinc-700">
+                        Just as a software PM maps back-end API dependencies to front-end feature launches, I mapped
+                        physical trade interdependencies where concrete pours directly impacted conduit runs and
+                        pneumatic testing.
+                      </p>
+                    </div>
+                    <div class="bg-shopify-surface border border-zinc-300 p-4">
+                      <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Sprint Rituals &amp;
+                        Unblocking</h4>
+                      <p class="text-sm text-zinc-700">
+                        Daily on-site blocker reviews ensured that spatial conflicts between civil foundations and
+                        high-voltage conduits were resolved before they became schedule-killing emergencies.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div class="bg-shopify-surface border border-zinc-300 p-4">
-                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Sprint Rituals &amp; Unblocking</h4>
-                  <p class="text-sm text-zinc-700">
-                    Daily on-site blocker reviews ensured that spatial conflicts between civil foundations and high-voltage conduits were resolved before they became schedule-killing emergencies.
-                  </p>
-                </div>
+
+                <!-- Phase 02 Field Photo: Pre-Pour Conduit & Rebar Deck Inspection (IMG_5704.jpg) -->
+                <figure
+                  class="lg:col-span-5 border-2 border-shopify-dark bg-shopify-surface shadow-brutal-sm flex flex-col justify-between overflow-hidden">
+                  <button type="button"
+                    class="gallery-trigger relative aspect-[4/3] lg:aspect-auto lg:h-full bg-zinc-900 overflow-hidden group focus:outline-none text-left"
+                    data-img="IMG_5704.jpg"
+                    data-alt="Aiman Alton inspecting conduit routing on the rebar deck prior to concrete pour"
+                    data-title="Phase 02 // Pre-Pour Conduit & Trade Dependency Mapping"
+                    data-caption="On the rebar deck mapping conduit runs and resolving civil/electrical spatial dependencies prior to structural concrete pours.">
+                    <img src="IMG_5704.jpg"
+                      alt="Aiman Alton inspecting conduit routing on the rebar deck prior to concrete pour"
+                      class="w-full h-full max-h-[340px] lg:max-h-none object-cover object-center group-hover:scale-105 transition-transform duration-300" />
+                    <div
+                      class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+                      PRE-POUR DEPENDENCY CHECK
+                    </div>
+                    <div
+                      class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      + EXPAND
+                    </div>
+                  </button>
+                  <figcaption class="p-3 bg-white border-t-2 border-shopify-dark font-mono text-[11px] text-zinc-600">
+                    On the rebar deck verifying conduit runs alongside civil formwork before structural concrete pours.
+                  </figcaption>
+                </figure>
               </div>
 
               <!-- Toggleable Software PM Parallel -->
-              <div class="pm-lens-box mt-6 bg-shopify-mint/60 border-l-4 border-shopify-green p-3.5 font-mono text-xs text-shopify-dark">
-                <strong>SOFTWARE PM EQUIVALENT:</strong> Aligning backend, frontend, QA, and DevOps teams through Scrum ceremonies—translating customer requirements into actionable tickets and unblocking cross-team dependencies.
+              <div
+                class="pm-lens-box mt-6 bg-shopify-mint/60 border-l-4 border-shopify-green p-3.5 font-mono text-xs text-shopify-dark">
+                <strong>SOFTWARE PM EQUIVALENT:</strong> Aligning backend, frontend, QA, and DevOps teams through Scrum
+                ceremonies—translating customer requirements into actionable tickets and unblocking cross-team
+                dependencies.
               </div>
             </div>
           </div>
@@ -451,14 +613,16 @@
           <!-- PHASE 3: Mistakes & Real-time Pivots -->
           <div class="relative group">
             <!-- Timeline Node Badge -->
-            <div class="absolute -left-[38px] sm:-left-[54px] top-0 w-8 h-8 sm:w-10 sm:h-10 bg-shopify-dark text-white font-mono font-bold text-xs sm:text-sm flex items-center justify-center border-2 border-shopify-dark group-hover:bg-shopify-green transition-colors">
+            <div
+              class="absolute -left-[38px] sm:-left-[54px] top-0 w-8 h-8 sm:w-10 sm:h-10 bg-shopify-dark text-white font-mono font-bold text-xs sm:text-sm flex items-center justify-center border-2 border-shopify-dark group-hover:bg-shopify-green transition-colors">
               03
             </div>
 
             <div class="border-2 border-shopify-dark bg-white p-6 sm:p-8 shadow-brutal">
               <div class="flex flex-wrap items-center justify-between gap-2 border-b-2 border-shopify-dark pb-4 mb-6">
                 <div>
-                  <span class="font-mono text-xs uppercase text-shopify-green font-semibold">Phase 03 // Incident Response &amp; Iteration</span>
+                  <span class="font-mono text-xs uppercase text-shopify-green font-semibold">Phase 03 // Incident
+                    Response &amp; Iteration</span>
                   <h3 class="font-display text-2xl font-bold mt-0.5">Mistakes &amp; Real-Time Pivots</h3>
                 </div>
                 <span class="font-mono text-xs bg-amber-100 border border-shopify-dark px-3 py-1">
@@ -467,27 +631,38 @@
               </div>
 
               <p class="text-base sm:text-lg text-zinc-800 leading-relaxed mb-6">
-                During commissioning, imported high-precision optical sorters—critical for final grain purity—experienced signal interference and voltage sensitivity when interfacing with local US low-voltage distribution feeds. With plant go-live at risk, I took immediate ownership by bridging cross-border engineering communications directly with the manufacturer's teams in Switzerland.
+                During commissioning, imported high-precision optical sorters—critical for final grain
+                purity—experienced signal interference and voltage sensitivity when interfacing with local US
+                low-voltage distribution feeds. With plant go-live at risk, I took immediate ownership by bridging
+                cross-border engineering communications directly with the manufacturer's teams in Switzerland.
               </p>
 
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="bg-shopify-surface border border-zinc-300 p-4">
-                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Root Cause &amp; Triage Decision</h4>
+                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Root Cause &amp; Triage
+                    Decision</h4>
                   <p class="text-sm text-zinc-700">
-                    By analyzing real-time electrical noise telemetry from the floor, we engineered on-site line isolation filtering and recalibrated firmware sensitivity parameters to match local power profiles.
+                    By analyzing real-time electrical noise telemetry from the floor, we engineered on-site line
+                    isolation filtering and recalibrated firmware sensitivity parameters to match local power profiles.
                   </p>
                 </div>
                 <div class="bg-shopify-surface border border-zinc-300 p-4">
-                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Retrospective &amp; Process Upgrade</h4>
+                  <h4 class="font-mono text-xs uppercase font-bold text-shopify-dark mb-1">Retrospective &amp; Process
+                    Upgrade</h4>
                   <p class="text-sm text-zinc-700">
-                    This cross-border collaboration eliminated potential multi-week commissioning delays, ensuring 100% optical sorting precision right on schedule, and updated our baseline QA checklist for all imported 50Hz/60Hz sensitive equipment.
+                    This cross-border collaboration eliminated potential multi-week commissioning delays, ensuring 100%
+                    optical sorting precision right on schedule, and updated our baseline QA checklist for all imported
+                    50Hz/60Hz sensitive equipment.
                   </p>
                 </div>
               </div>
 
               <!-- Toggleable Software PM Parallel -->
-              <div class="pm-lens-box mt-6 bg-shopify-mint/60 border-l-4 border-shopify-green p-3.5 font-mono text-xs text-shopify-dark">
-                <strong>SOFTWARE PM EQUIVALENT:</strong> Leading a Sev-1 production incident war room—isolating the bug, shipping a hotfix with zero customer-facing downtime, and running a blameless post-mortem to harden CI/CD checks.
+              <div
+                class="pm-lens-box mt-6 bg-shopify-mint/60 border-l-4 border-shopify-green p-3.5 font-mono text-xs text-shopify-dark">
+                <strong>SOFTWARE PM EQUIVALENT:</strong> Leading a Sev-1 production incident war room—isolating the bug,
+                shipping a hotfix with zero customer-facing downtime, and running a blameless post-mortem to harden
+                CI/CD checks.
               </div>
             </div>
           </div>
@@ -505,41 +680,78 @@
 
           <!-- Left Column: Context & Field Telemetry -->
           <div class="lg:col-span-7 space-y-6">
-            <div class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-mint text-shopify-greenHover border border-shopify-dark px-3 py-1">
+            <div
+              class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-mint text-shopify-greenHover border border-shopify-dark px-3 py-1">
               03 // Live Field Footage
             </div>
             <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-shopify-dark">
               Inside the Build: Industrial Manufacturing at Scale
             </h2>
             <p class="text-zinc-700 text-base sm:text-lg leading-relaxed">
-              See the physical scale of ADM's Mendota mega-facility in action—where 3000A switchboards, 1,065 motor drives, and multi-trade Agile execution converged to power North America's largest flour mill.
+              See the physical scale of ADM's Mendota mega-facility in action—where 3000A switchboards, 1,065 motor
+              drives, and multi-trade Agile execution converged to power North America's largest flour mill.
             </p>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               <div class="border-2 border-shopify-dark bg-shopify-surface p-4 shadow-brutal-sm">
                 <span class="font-mono text-xs uppercase text-shopify-green font-bold block mb-1">Field Execution</span>
                 <p class="text-sm text-zinc-700">
-                  Real-time coordination across electrical, mechanical, pneumatic, and civil workstreams on the active plant floor.
+                  Real-time coordination across electrical, mechanical, pneumatic, and civil workstreams on the active
+                  plant floor.
                 </p>
               </div>
               <div class="border-2 border-shopify-dark bg-shopify-surface p-4 shadow-brutal-sm">
-                <span class="font-mono text-xs uppercase text-shopify-green font-bold block mb-1">Production Scale</span>
+                <span class="font-mono text-xs uppercase text-shopify-green font-bold block mb-1">Production
+                  Scale</span>
                 <p class="text-sm text-zinc-700">
-                  15,000+ total horsepower engineered for continuous 24/7/365 fault-tolerant milling and automated packaging.
+                  15,000+ total horsepower engineered for continuous 24/7/365 fault-tolerant milling and automated
+                  packaging.
                 </p>
               </div>
             </div>
+
+            <!-- On-Floor Standup & Triage Photo (IMG_8669.jpg) -->
+            <figure class="border-2 border-shopify-dark bg-white shadow-brutal-sm overflow-hidden">
+              <button type="button"
+                class="gallery-trigger relative w-full aspect-[1200/628] bg-zinc-900 overflow-hidden group focus:outline-none text-left block"
+                data-img="IMG_8669.jpg"
+                data-alt="Aiman Alton reviewing schematics on the plant floor with engineering and field teammates"
+                data-title="Field Standup // Real-Time Floor Triage & Alignment"
+                data-caption="Reviewing electrical schematics and unblocking installation dependencies directly on the plant floor with cross-functional teammates.">
+                <img src="IMG_8669.jpg"
+                  alt="Aiman Alton reviewing schematics on the plant floor with engineering and field teammates"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                <div
+                  class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+                  STANDUP // ON-FLOOR TRIAGE
+                </div>
+                <div
+                  class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  + EXPAND
+                </div>
+              </button>
+              <figcaption class="px-4 py-2.5 bg-shopify-surface border-t-2 border-shopify-dark font-mono text-xs text-zinc-600">
+                Real-time floor huddle: Reviewing schematics and unblocking field installation dependencies with the crew.
+              </figcaption>
+            </figure>
           </div>
 
           <!-- Right Column: Brutalist Video Frame -->
           <div class="lg:col-span-5 flex justify-center">
-            <div class="border-2 border-shopify-dark bg-shopify-dark p-3 sm:p-4 shadow-brutal inline-flex flex-col items-center">
-              <div class="w-full flex items-center justify-between font-mono text-[11px] text-shopify-lime pb-2.5 mb-2.5 border-b border-zinc-700">
+            <div
+              class="border-2 border-shopify-dark bg-shopify-dark p-3 sm:p-4 shadow-brutal inline-flex flex-col items-center">
+              <div
+                class="w-full flex items-center justify-between font-mono text-[11px] text-shopify-lime pb-2.5 mb-2.5 border-b border-zinc-700">
                 <span>REEL // ADM_MENDOTA_BUILD</span>
                 <span class="bg-zinc-800 text-white px-2 py-0.5">LIVE FLOOR</span>
               </div>
               <div class="border-2 border-shopify-dark bg-black overflow-hidden">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F834065109748156%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                <iframe
+                  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F834065109748156%2F&show_text=false&width=267&t=0"
+                  width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                  allowfullscreen="true"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  allowFullScreen="true"></iframe>
               </div>
             </div>
           </div>
@@ -556,14 +768,16 @@
 
         <!-- Section Header -->
         <div class="mb-12">
-          <div class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-green text-white px-3 py-1 mb-3 border border-shopify-lime">
+          <div
+            class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-green text-white px-3 py-1 mb-3 border border-shopify-lime">
             04 // Impact &amp; Telemetry
           </div>
           <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white">
             The Results &amp; Wins
           </h2>
           <p class="text-zinc-300 mt-2 max-w-2xl">
-            Measurable outcomes delivered for ADM—proving that disciplined product management principles drive outsized results in physical infrastructure.
+            Measurable outcomes delivered for ADM—proving that disciplined product management principles drive outsized
+            results in physical infrastructure.
           </p>
         </div>
 
@@ -571,7 +785,8 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
 
           <!-- Metric Card 1 -->
-          <div class="border-2 border-zinc-700 bg-zinc-900/90 p-6 sm:p-8 hover:border-shopify-lime transition-colors flex flex-col justify-between">
+          <div
+            class="border-2 border-zinc-700 bg-zinc-900/90 p-6 sm:p-8 hover:border-shopify-lime transition-colors flex flex-col justify-between">
             <div>
               <span class="font-mono text-xs uppercase tracking-wider text-shopify-lime block mb-2">
                 Metric 01 // Safety &amp; Compliance
@@ -584,12 +799,14 @@
               </h3>
             </div>
             <p class="text-sm text-zinc-300 leading-relaxed border-t border-zinc-800 pt-4">
-              Delivered the full industrial electrical buildout safely, passing strict NEC and UL508A regulatory inspections on the first run.
+              Delivered the full industrial electrical buildout safely, passing strict NEC and UL508A regulatory
+              inspections on the first run.
             </p>
           </div>
 
           <!-- Metric Card 2 -->
-          <div class="border-2 border-zinc-700 bg-zinc-900/90 p-6 sm:p-8 hover:border-shopify-lime transition-colors flex flex-col justify-between">
+          <div
+            class="border-2 border-zinc-700 bg-zinc-900/90 p-6 sm:p-8 hover:border-shopify-lime transition-colors flex flex-col justify-between">
             <div>
               <span class="font-mono text-xs uppercase tracking-wider text-shopify-lime block mb-2">
                 Metric 02 // Reliability &amp; Uptime
@@ -602,12 +819,14 @@
               </h3>
             </div>
             <p class="text-sm text-zinc-300 leading-relaxed border-t border-zinc-800 pt-4">
-              Unlocked a 30,000 cwt daily throughput capacity (15,000+ total HP across 1,065 motors) to seamlessly supply Midwest commercial bakeries.
+              Unlocked a 30,000 cwt daily throughput capacity (15,000+ total HP across 1,065 motors) to seamlessly
+              supply Midwest commercial bakeries.
             </p>
           </div>
 
           <!-- Metric Card 3 -->
-          <div class="border-2 border-zinc-700 bg-zinc-900/90 p-6 sm:p-8 hover:border-shopify-lime transition-colors flex flex-col justify-between">
+          <div
+            class="border-2 border-zinc-700 bg-zinc-900/90 p-6 sm:p-8 hover:border-shopify-lime transition-colors flex flex-col justify-between">
             <div>
               <span class="font-mono text-xs uppercase tracking-wider text-shopify-lime block mb-2">
                 Metric 03 // Strategic Consolidation
@@ -620,7 +839,8 @@
               </h3>
             </div>
             <p class="text-sm text-zinc-300 leading-relaxed border-t border-zinc-800 pt-4">
-              Successfully transitioned ADM away from three aging, fragmented facilities into one highly efficient, centralized operational hub.
+              Successfully transitioned ADM away from three aging, fragmented facilities into one highly efficient,
+              centralized operational hub.
             </p>
           </div>
 
@@ -634,14 +854,18 @@
                 Why Hardware Engineering Makes Me a Stronger Shopify APM
               </span>
               <h3 class="font-display text-xl sm:text-2xl font-bold text-white">
-                When your product controls 480V motors, you learn to obsess over edge cases, user empathy, and systems thinking.
+                When your product controls 480V motors, you learn to obsess over edge cases, user empathy, and systems
+                thinking.
               </h3>
               <p class="text-sm sm:text-base text-zinc-300 leading-relaxed">
-                Managing complex physical dependencies, negotiating with global hardware vendors, and leading cross-functional field teams under strict regulatory constraints translates directly to building high-stakes, merchant-obsessed digital products at Shopify.
+                Managing complex physical dependencies, negotiating with global hardware vendors, and leading
+                cross-functional field teams under strict regulatory constraints translates directly to building
+                high-stakes, merchant-obsessed digital products at Shopify.
               </p>
             </div>
             <div class="shrink-0">
-              <a href="mailto:aiman.alton@example.com" class="inline-flex items-center gap-2 bg-shopify-lime text-shopify-dark font-mono text-xs uppercase tracking-wider font-bold px-5 py-3.5 border-2 border-white hover:bg-white transition-colors">
+              <a href="mailto:aimanalton@gmail.com"
+                class="inline-flex items-center gap-2 bg-shopify-lime text-shopify-dark font-mono text-xs uppercase tracking-wider font-bold px-5 py-3.5 border-2 border-white hover:bg-white transition-colors">
                 <span>Email Me</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -663,14 +887,16 @@
         <!-- Section Header -->
         <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
-            <div class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-mint text-shopify-greenHover border border-shopify-dark px-3 py-1 mb-3">
+            <div
+              class="inline-block font-mono text-xs uppercase tracking-widest bg-shopify-mint text-shopify-greenHover border border-shopify-dark px-3 py-1 mb-3">
               05 // Artifacts &amp; Build Proof
             </div>
             <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-shopify-dark">
               Hardware &amp; Architecture Gallery
             </h2>
             <p class="text-zinc-600 mt-2 max-w-2xl">
-              Physical artifacts from the ADM Flour Mill build—from ECAD schematics and BOM planning to wired UL508A control cabinets. Click any card to inspect.
+              Physical artifacts from the ADM Flour Mill build—from ECAD schematics and BOM planning to wired UL508A
+              control cabinets. Click any card to inspect.
             </p>
           </div>
           <span class="font-mono text-xs text-zinc-500 uppercase">4 Artifacts // Click to Expand</span>
@@ -681,13 +907,18 @@
 
           <!-- Artifact 1: Control Panel -->
           <figure class="group border-2 border-shopify-dark bg-white shadow-brutal flex flex-col justify-between">
-            <button type="button" class="gallery-trigger text-left w-full focus:outline-none" data-img="IMG_1105.jpg" data-alt="Physical Control Panel / HMI" data-title="Artifact 01 // UL508A Control Lineup" data-caption="UL508A Control Lineup. Custom-engineered control interfaces balancing operator usability with strict industrial safety standards and thermal management.">
+            <button type="button" class="gallery-trigger text-left w-full focus:outline-none" data-img="IMG_1105.jpg"
+              data-alt="Physical Control Panel / HMI" data-title="Artifact 01 // UL508A Control Lineup"
+              data-caption="UL508A Control Lineup. Custom-engineered control interfaces balancing operator usability with strict industrial safety standards and thermal management.">
               <div class="relative aspect-[4/3] bg-zinc-900 text-white overflow-hidden">
-                <img src="IMG_1105.jpg" alt="Physical Control Panel / HMI" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                <div class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+                <img src="IMG_1105.jpg" alt="Physical Control Panel / HMI"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                <div
+                  class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
                   ARTIFACT 01 // CONTROL CABINET
                 </div>
-                <div class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div
+                  class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
                   + EXPAND
                 </div>
               </div>
@@ -698,20 +929,27 @@
                 <span class="font-mono text-[11px] text-zinc-500">HARDWARE_BUILD</span>
               </div>
               <p class="text-sm text-zinc-700">
-                Custom-engineered control interfaces balancing operator usability with strict industrial safety standards and thermal management.
+                Custom-engineered control interfaces balancing operator usability with strict industrial safety
+                standards and thermal management.
               </p>
             </figcaption>
           </figure>
 
           <!-- Artifact 2: ECAD / Schematics -->
           <figure class="group border-2 border-shopify-dark bg-white shadow-brutal flex flex-col justify-between">
-            <button type="button" class="gallery-trigger text-left w-full focus:outline-none" data-img="IMG_0877.jpg" data-alt="Engineer pointing at software/ECAD architecture" data-title="Artifact 02 // ECAD System Schematics" data-caption="ECAD System Schematics. Translating complex business logic into rigorous electrical schematics—functioning exactly like API documentation for the shop fabricators.">
+            <button type="button" class="gallery-trigger text-left w-full focus:outline-none" data-img="IMG_0877.jpg"
+              data-alt="Engineer pointing at software/ECAD architecture"
+              data-title="Artifact 02 // ECAD System Schematics"
+              data-caption="ECAD System Schematics. Translating complex business logic into rigorous electrical schematics—functioning exactly like API documentation for the shop fabricators.">
               <div class="relative aspect-[4/3] bg-zinc-900 text-white overflow-hidden">
-                <img src="IMG_0877.jpg" alt="Engineer pointing at software/ECAD architecture" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                <div class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+                <img src="IMG_0877.jpg" alt="Engineer pointing at software/ECAD architecture"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                <div
+                  class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
                   ARTIFACT 02 // ECAD ARCHITECTURE
                 </div>
-                <div class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div
+                  class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
                   + EXPAND
                 </div>
               </div>
@@ -722,20 +960,26 @@
                 <span class="font-mono text-[11px] text-zinc-500">SYSTEM_SPEC</span>
               </div>
               <p class="text-sm text-zinc-700">
-                Translating complex business logic into rigorous electrical schematics—functioning exactly like API documentation for the shop fabricators.
+                Translating complex business logic into rigorous electrical schematics—functioning exactly like API
+                documentation for the shop fabricators.
               </p>
             </figcaption>
           </figure>
 
           <!-- Artifact 3: Field Deployment -->
           <figure class="group border-2 border-shopify-dark bg-white shadow-brutal flex flex-col justify-between">
-            <button type="button" class="gallery-trigger text-left w-full focus:outline-none" data-img="IMG_1710.jpg" data-alt="Knobelsdorff field team outside ADM silos" data-title="Artifact 03 // On-Site Agile Leadership" data-caption="On-Site Agile Leadership. Leading daily standups on the floor with cross-functional trade teams to keep multi-disciplinary deliverables on schedule.">
+            <button type="button" class="gallery-trigger text-left w-full focus:outline-none" data-img="IMG_1710.jpg"
+              data-alt="Knobelsdorff field team outside ADM silos" data-title="Artifact 03 // On-Site Agile Leadership"
+              data-caption="On-Site Agile Leadership. Leading daily standups on the floor with cross-functional trade teams to keep multi-disciplinary deliverables on schedule.">
               <div class="relative aspect-[4/3] bg-zinc-900 text-white overflow-hidden">
-                <img src="IMG_1710.jpg" alt="Knobelsdorff field team outside ADM silos" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                <div class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+                <img src="IMG_1710.jpg" alt="Knobelsdorff field team outside ADM silos"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                <div
+                  class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
                   ARTIFACT 03 // FIELD DEPLOYMENT
                 </div>
-                <div class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div
+                  class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
                   + EXPAND
                 </div>
               </div>
@@ -746,20 +990,27 @@
                 <span class="font-mono text-[11px] text-zinc-500">DEPLOYMENT</span>
               </div>
               <p class="text-sm text-zinc-700">
-                Leading daily standups on the floor with cross-functional trade teams to keep multi-disciplinary deliverables on schedule.
+                Leading daily standups on the floor with cross-functional trade teams to keep multi-disciplinary
+                deliverables on schedule.
               </p>
             </figcaption>
           </figure>
 
           <!-- Artifact 4: QA / Sorters -->
           <figure class="group border-2 border-shopify-dark bg-white shadow-brutal flex flex-col justify-between">
-            <button type="button" class="gallery-trigger text-left w-full focus:outline-none" data-img="-FPNG-C2043x2048,771,0-S2000x2000.png" data-alt="Buhler machine and localized control testing" data-title="Artifact 04 // Optical Sorter Calibration" data-caption="Optical Sorter Calibration. Collaborating on the floor to troubleshoot, filter, and adapt imported Buhler machinery to local voltage parameters for zero-defect commissioning.">
-              <div class="relative aspect-[4/3] bg-zinc-900 text-white overflow-hidden">
-                <img src="-FPNG-C2043x2048%2C771%2C0-S2000x2000.png" alt="Buhler machine and localized control testing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                <div class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
+            <button type="button" class="gallery-trigger text-left w-full focus:outline-none"
+              data-img="-FPNG-C2043x2048,771,0-S2000x2000.png" data-alt="Buhler SORTEX optical sorter machine"
+              data-title="Artifact 04 // Optical Sorter Calibration"
+              data-caption="Optical Sorter Calibration. Collaborating on the floor to troubleshoot, filter, and adapt imported Buhler machinery to local voltage parameters for zero-defect commissioning.">
+              <div class="relative aspect-[4/3] bg-white text-white overflow-hidden">
+                <img src="-FPNG-C2043x2048,771,0-S2000x2000.png" alt="Buhler SORTEX optical sorter machine"
+                  class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-300" />
+                <div
+                  class="absolute top-3 left-3 font-mono text-[11px] bg-shopify-dark/90 border border-zinc-700 px-2.5 py-1 text-shopify-lime">
                   ARTIFACT 04 // QA &amp; COMMISSIONING
                 </div>
-                <div class="absolute top-3 right-3 font-mono text-[11px] bg-white text-shopify-dark px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div
+                  class="absolute top-3 right-3 font-mono text-[11px] bg-shopify-dark text-white px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
                   + EXPAND
                 </div>
               </div>
@@ -770,7 +1021,8 @@
                 <span class="font-mono text-[11px] text-zinc-500">QA_RELEASE</span>
               </div>
               <p class="text-sm text-zinc-700">
-                Collaborating on the floor to troubleshoot, filter, and adapt imported Buhler machinery to local voltage parameters for zero-defect commissioning.
+                Collaborating on the floor to troubleshoot, filter, and adapt imported Buhler machinery to local voltage
+                parameters for zero-defect commissioning.
               </p>
             </figcaption>
           </figure>
@@ -797,15 +1049,19 @@
               Engineering Zero Downtime — From Industrial Infrastructure to Digital Commerce
             </h2>
             <p class="text-zinc-700 text-sm sm:text-base">
-              Managing complex physical dependencies, negotiating with global hardware vendors, and leading cross-functional field teams under strict regulatory constraints translates directly to building high-stakes, merchant-obsessed digital products at Shopify.
+              Managing complex physical dependencies, negotiating with global hardware vendors, and leading
+              cross-functional field teams under strict regulatory constraints translates directly to building
+              high-stakes, merchant-obsessed digital products at Shopify.
             </p>
           </div>
 
           <!-- Contact Action Buttons -->
           <div class="flex flex-wrap items-center gap-4 shrink-0">
-            <a href="mailto:aiman.alton@example.com" class="inline-flex items-center gap-2 bg-shopify-green text-white font-mono text-xs uppercase tracking-wider font-semibold px-5 py-3.5 border-2 border-shopify-dark shadow-brutal-sm hover:bg-shopify-greenHover hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all">
+            <a href="mailto:aimanalton@gmail.com"
+              class="inline-flex items-center gap-2 bg-shopify-green text-white font-mono text-xs uppercase tracking-wider font-semibold px-5 py-3.5 border-2 border-shopify-dark shadow-brutal-sm hover:bg-shopify-greenHover hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all">
               <span>Email Me</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
@@ -814,9 +1070,12 @@
       </div>
 
       <!-- Bottom Copyright & Back to Top -->
-      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-zinc-300 font-mono text-xs text-zinc-600">
-        <p>© 2026 Aiman Alton — Hardware Project Engineer &amp; Licensed Master Electrician. Built for the Shopify APM Application.</p>
-        <a href="#" class="text-shopify-dark hover:text-shopify-green font-semibold uppercase tracking-wider flex items-center gap-1 transition-colors">
+      <div
+        class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-zinc-300 font-mono text-xs text-zinc-600">
+        <p>© 2026 Aiman Alton — Hardware Project Engineer &amp; Licensed Master Electrician. Built for the Shopify APM
+          Application.</p>
+        <a href="#"
+          class="text-shopify-dark hover:text-shopify-green font-semibold uppercase tracking-wider flex items-center gap-1 transition-colors">
           <span>Back to Top</span>
           <span aria-hidden="true">↑</span>
         </a>
@@ -828,19 +1087,22 @@
   <!-- ==========================================
        LIGHTBOX MODAL FOR GALLERY ARTIFACTS
        ========================================== -->
-  <div id="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" class="fixed inset-0 z-50 hidden bg-shopify-dark/80 backdrop-blur-xs flex items-center justify-center p-4">
+  <div id="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"
+    class="fixed inset-0 z-50 hidden bg-shopify-dark/80 backdrop-blur-xs flex items-center justify-center p-4">
     <div class="bg-white border-2 border-shopify-dark shadow-brutal max-w-2xl w-full overflow-hidden">
       <div class="flex items-center justify-between px-5 py-3.5 bg-shopify-dark text-white">
         <h3 id="modal-title" class="font-mono text-xs sm:text-sm uppercase tracking-wider text-shopify-lime">
           Artifact Preview
         </h3>
-        <button type="button" id="close-modal-btn" aria-label="Close preview modal" class="font-mono text-xs uppercase px-2.5 py-1 bg-zinc-800 hover:bg-shopify-green text-white transition-colors">
+        <button type="button" id="close-modal-btn" aria-label="Close preview modal"
+          class="font-mono text-xs uppercase px-2.5 py-1 bg-zinc-800 hover:bg-shopify-green text-white transition-colors">
           ESC / CLOSE ✕
         </button>
       </div>
       <div class="p-6">
         <div class="aspect-[16/9] bg-zinc-900 overflow-hidden mb-4 border-2 border-shopify-dark">
-          <img id="modal-image" src="IMG_1105.jpg" alt="Artifact preview" class="w-full h-full object-contain bg-zinc-900" />
+          <img id="modal-image" src="IMG_1105.jpg" alt="Artifact preview"
+            class="w-full h-full object-contain bg-zinc-900" />
         </div>
         <p id="modal-caption" class="text-sm text-zinc-700 leading-relaxed"></p>
       </div>
@@ -949,4 +1211,5 @@
     }
   </script>
 </body>
+
 </html>
